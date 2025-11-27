@@ -14,7 +14,7 @@ spec:
         app: dashboard-ui
     spec:
       containers:
-        - image:pyarelflouzia3737890/pyarel-alpine:0.0.2
+        - image: pyarelflouzia3737890/pyarel-alpine:0.0.2
           name: dashboard-ui
           ports:
             - containerPort: 80
